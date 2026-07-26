@@ -1,8 +1,28 @@
 aid: exploration
-name: exploration
-description: exploration is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exploration.png
+name: The Exploration Company
+description: >-
+  The Exploration Company GmbH is a European space transportation startup building reusable space
+  vehicles "for humanity." Its flagship program, Nyx, is a reusable capsule designed to carry cargo
+  and, eventually, crew between Earth and low Earth orbit destinations such as commercial space
+  stations, featuring orbital propulsion, autonomous docking, and re-entry recovery. The company is
+  also developing Storm, a high-thrust reusable rocket engine (up to 180 tons of thrust) built through
+  European partnerships toward a globally competitive launcher. Backed by Balderton Capital and a
+  certified B Corp, it markets itself as one of the fastest-growing space startups in the world. The
+  company operates a marketing and careers web presence but publishes no public developer program,
+  API, SDKs, or machine-readable API artifacts at this time. Surfaced as a Balderton Capital portfolio
+  company and enriched in the API Evangelist network with verified identity and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/exploration/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Space
+- Aerospace
+- Space Transportation
+- Reusable Spacecraft
+- Launch Vehicles
+- Rocket Engines
+- Deep Tech
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/exploration-domain-security.yml
 - type: Website
   url: https://www.exploration.space/
+- type: About
+  url: https://www.exploration.space/about
+- type: Blog
+  url: https://www.exploration.space/blog
+- type: Support
+  url: https://www.exploration.space/contact
+- type: Careers
+  url: https://www.exploration.space/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/exploration-company/
+- type: Instagram
+  url: https://www.instagram.com/theexplorationcompany/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
